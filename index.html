@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "style.css">
+<script src = "//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src = "application.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Dosis:400,500,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id = "container">
+<div id = "soc_up">
+	<span class = "soc_but">
+		<p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie, augue sit amet tristique pellentesque, dui lacus finibus leo, non aliquam enim eros in velit. Fusce quis    enim in metus ornare semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+	</span>
+</div>
+<div id = "logo">
+	Programmers Path<br/>
+	 <canvas id="myCanvas" heigth = "80px"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      var centerX = canvas.width / 2;
+      var centerY = canvas.height / 2;
+      var radius = 50;
+
+      context.beginPath();
+      context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+      context.fillStyle = 'red';
+      context.fill();
+      context.lineWidth = 2;
+      context.strokeStyle = '#003300';
+      context.stroke();
+    </script>
+  </body><br/>
+	<span id = "tagline">"From beginner to expert"</span>
+</div>
+<nav>
+	<ul>
+		<li><a href = "#">Item 1</a></li>
+		<li><a href = "##">Item 2</a></li>
+		<li><a href = "#">Item 3</a></li>
+		<li><a href = "#">Item 4</a></li>
+		<li><a href = "#">Item 5</a></li>
+	</ul>
+</nav>
+<article>
+	HERE IT WILL BE POSTS
+	<aside>
+	HERE IT WILL BE TAG CLOUD
+</aside>
+
+</article>
+
+
+</div>
+</body>
