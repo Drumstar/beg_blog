@@ -9,3 +9,10 @@ Good bless me!)
 
 28.11.2014
 1-st stage. Creating html structure. 
+What did I do?
+  a. Created HTML structure for future index.html
+  b. Added a backround
+  c. Created navigation
+1-st stage done.
+Next step is to create app which will add new posts to my index.html
+See u soon..
